@@ -169,4 +169,11 @@ Enter goal state (3x3):
 4 5 0
 6 7 8
 
+
+IMPORTANT
+For the 8-puzzle, the solvability can be determined by inversion parity:
+Flatten each 3x3 state into a 1D array, ignoring the blank tile (0).
+Count inversions: An inversion is a situation where a larger number precedes a smaller number in the sequence.
+The parity of inversions (whether it’s even or odd) in the initial and goal states must match for the puzzle to be solvable.
+
  */
